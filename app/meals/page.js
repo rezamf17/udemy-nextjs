@@ -10,7 +10,6 @@ async function MealsPage(){
 }
 
 export default async function Meals(){
-    const meals = await getMeals();
     return (
         <>
             <header className={classes.header}>
