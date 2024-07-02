@@ -9,7 +9,7 @@ async function MealsPage(){
     return <MealsGrid meals={meals} />
 }
 
-export default function Meals(){
+export default async function Meals(){
     return (
         <>
             <header className={classes.header}>
