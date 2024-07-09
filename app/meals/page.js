@@ -5,6 +5,7 @@ import MealsGrid from '@/components/meals/meals-grid';
 import { Suspense } from 'react';
 
 async function MealsPage(){
+    console.log('Fetcing meals...');
     const meals = await getMeals();
     return <MealsGrid meals={meals} />
 }
